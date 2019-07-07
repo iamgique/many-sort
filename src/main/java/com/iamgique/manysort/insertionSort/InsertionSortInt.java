@@ -9,7 +9,6 @@ public class InsertionSortInt implements InsertionSort {
 
     public InsertionSortInt(List list) {
         this.list = list;
-        System.out.println("Input:" + list);
     }
 
     public List insertion() {
