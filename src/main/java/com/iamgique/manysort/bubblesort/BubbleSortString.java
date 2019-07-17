@@ -14,10 +14,10 @@ public class BubbleSortString implements BubbleSort{
         System.out.println("Input:" + list);
         for (int i = 0; i < list.size(); i++) {
             for (int j = 0; j < list.size() - i - 1; j++) {
-                if (list.get(j).toString().charAt(0) > list.get(j + 1).toString().charAt(0)) {
+                if (list.get(j).charAt(0) > list.get(j + 1).charAt(0)) {
                     Collections.swap(list, j, j + 1);
                 }
-                //System.out.println(input);
+                System.out.println(list);
             }
         }
         return list;
