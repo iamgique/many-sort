@@ -17,7 +17,7 @@ public class BubbleSortString implements BubbleSort{
                 if (list.get(j).charAt(0) > list.get(j + 1).charAt(0)) {
                     Collections.swap(list, j, j + 1);
                 }
-                System.out.println(list);
+                //System.out.println(list);
             }
         }
         return list;
